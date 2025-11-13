@@ -99,14 +99,14 @@ if DATABASE_URL is not None:
 
 UPSTREAM_REPO = environ.get(
     "UPSTREAM_REPO",
-    ""
+    "https://github.com/DevilofParadis/l"
 )
 if len(UPSTREAM_REPO) == 0:
     UPSTREAM_REPO = "https://github.com/DevilofParadis/l"
 
 UPSTREAM_BRANCH = environ.get(
     "UPSTREAM_BRANCH",
-    ""
+    "main"
 )
 if len(UPSTREAM_BRANCH) == 0:
     UPSTREAM_BRANCH = "main"
